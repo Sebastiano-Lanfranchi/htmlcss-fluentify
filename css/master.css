@@ -111,8 +111,13 @@ li a{
 
 /* main box */
 
+/* row1 */
+
+.row1{
+ margin-left: 7%;
+ margin-bottom: 40px;
+}
 div.box-1{
-  height: 600px;
   width: 400px;
   text-align: center;
 }
@@ -133,7 +138,6 @@ div.box-1{
 }
 
 div.box-2{
-  height: 600px;
   width: 400px;
   text-align: center;
 }
@@ -154,7 +158,6 @@ div.box-2{
 }
 
 div.box-3{
-  height: 600px;
   width: 400px;
   text-align: center;
 }
@@ -172,4 +175,15 @@ div.box-3{
   font-weight: bold;
   margin-bottom: 20px;
   display: block;
+  position: relative;
+}
+
+/* row2 */
+
+.row2{
+    margin-left: 7%;
+}
+
+.box2-1 > img{
+  width: 200px;
 }

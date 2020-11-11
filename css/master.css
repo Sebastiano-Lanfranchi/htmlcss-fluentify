@@ -108,3 +108,68 @@ li a{
   font-weight: lighter;
   color: #fff
 }
+
+/* main box */
+
+div.box-1{
+  height: 600px;
+  width: 400px;
+  text-align: center;
+}
+
+.box-1 > img{
+  width: 60px;
+  height: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-1 > span:first-of-type{
+  Color: green;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+}
+
+div.box-2{
+  height: 600px;
+  width: 400px;
+  text-align: center;
+}
+
+.box-2 > img{
+  width: 60px;
+  height: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-2 > span:first-of-type{
+  Color: green;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+}
+
+div.box-3{
+  height: 600px;
+  width: 400px;
+  text-align: center;
+}
+
+.box-3 > img{
+  width: 60px;
+  height: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-3 > span:first-of-type{
+  Color: green;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+}

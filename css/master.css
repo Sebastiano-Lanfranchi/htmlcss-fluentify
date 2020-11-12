@@ -69,6 +69,22 @@ li a{
   color: white;
 }
 
+.b-login{
+  background-color: #0C325A;
+  border-radius: 20%;
+  border-color: #fff;
+  padding: 1px 10px;
+  color: #fff;
+}
+
+.b-info{
+  background-color: lightgreen;
+  border-radius: 20%;
+  border-color: #fff;
+  padding: 1px 10px;
+  color: #fff;
+}
+
 
 .insieme-logo-navabar{
  width: 1200px;
@@ -111,11 +127,16 @@ li a{
 
 /* main box */
 
+main{
+  text-align: center;
+}
+
 /* row1 */
 
 .row1{
- margin-left: 7%;
  margin-bottom: 40px;
+ height: 100%;
+ margin-left: 7%;
 }
 div.box-1{
   width: 400px;
@@ -182,8 +203,14 @@ div.box-3{
 
 .row2{
     margin-left: 7%;
+    margin-top: 30px;
 }
 
 .box2-1 > img{
-  width: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.box2-2 {
+  width: 400px;
 }
